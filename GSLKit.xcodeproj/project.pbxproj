@@ -7,222 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65CD168D230F8B450052CB3F /* GSLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CD1683230F8B450052CB3F /* GSLKit.framework */; };
-		65CD1692230F8B450052CB3F /* GSLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD1691230F8B450052CB3F /* GSLKitTests.m */; };
-		65CD1694230F8B450052CB3F /* GSLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD1686230F8B450052CB3F /* GSLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16C5230F8BA10052CB3F /* GSLJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD169E230F8BA00052CB3F /* GSLJSON.m */; };
-		65CD16C6230F8BA10052CB3F /* UIDevice+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A0230F8BA00052CB3F /* UIDevice+GSLAddition.m */; };
-		65CD16C7230F8BA10052CB3F /* NSMutableDictionary+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16A1230F8BA00052CB3F /* NSMutableDictionary+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16C8230F8BA10052CB3F /* UIWindow+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A2230F8BA00052CB3F /* UIWindow+GSLAddition.m */; };
-		65CD16C9230F8BA10052CB3F /* NSArray+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A3230F8BA00052CB3F /* NSArray+GSLAddition.m */; };
-		65CD16CA230F8BA10052CB3F /* NSString+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A4230F8BA00052CB3F /* NSString+GSLAddition.m */; };
-		65CD16CB230F8BA10052CB3F /* NSMutableArray+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A5230F8BA00052CB3F /* NSMutableArray+GSLAddition.m */; };
-		65CD16CC230F8BA10052CB3F /* NSNull+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A6230F8BA00052CB3F /* NSNull+GSLAddition.m */; };
-		65CD16CD230F8BA10052CB3F /* NSData+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A7230F8BA00052CB3F /* NSData+GSLAddition.m */; };
-		65CD16CE230F8BA10052CB3F /* NSDate+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16A8230F8BA00052CB3F /* NSDate+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16CF230F8BA10052CB3F /* NSMutableDictionary+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16A9230F8BA00052CB3F /* NSMutableDictionary+GSLAddition.m */; };
-		65CD16D0230F8BA10052CB3F /* UIDevice+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16AA230F8BA00052CB3F /* UIDevice+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16D1230F8BA10052CB3F /* NSArray+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16AB230F8BA10052CB3F /* NSArray+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16D2230F8BA10052CB3F /* UIWindow+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16AC230F8BA10052CB3F /* UIWindow+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16D3230F8BA10052CB3F /* NSNull+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16AD230F8BA10052CB3F /* NSNull+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16D4230F8BA10052CB3F /* NSMutableArray+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16AE230F8BA10052CB3F /* NSMutableArray+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16D5230F8BA10052CB3F /* NSString+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16AF230F8BA10052CB3F /* NSString+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16D6230F8BA10052CB3F /* NSDate+GSLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16B0230F8BA10052CB3F /* NSDate+GSLAddition.m */; };
-		65CD16D7230F8BA10052CB3F /* NSData+GSLAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16B1230F8BA10052CB3F /* NSData+GSLAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16D9230F8BA10052CB3F /* GSLReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16B3230F8BA10052CB3F /* GSLReachabilityManager.m */; };
-		65CD16DA230F8BA10052CB3F /* GSLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16B4230F8BA10052CB3F /* GSLUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16DB230F8BA10052CB3F /* GSLFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16B5230F8BA10052CB3F /* GSLFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16E0230F8BA10052CB3F /* GSLJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16BB230F8BA10052CB3F /* GSLJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16E1230F8BA10052CB3F /* GSLReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CD16BC230F8BA10052CB3F /* GSLReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CD16E2230F8BA10052CB3F /* GSLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16BD230F8BA10052CB3F /* GSLUtilities.m */; };
-		65CD16E4230F8BA10052CB3F /* GSLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CD16BF230F8BA10052CB3F /* GSLFileManager.m */; };
+		6511C06C230FD714005FE836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511C06B230FD714005FE836 /* AppDelegate.m */; };
+		6511C072230FD714005FE836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511C071230FD714005FE836 /* ViewController.m */; };
+		6511C075230FD714005FE836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511C073230FD714005FE836 /* Main.storyboard */; };
+		6511C077230FD720005FE836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6511C076230FD720005FE836 /* Assets.xcassets */; };
+		6511C07A230FD720005FE836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6511C078230FD720005FE836 /* LaunchScreen.storyboard */; };
+		6511C07D230FD720005FE836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511C07C230FD720005FE836 /* main.m */; };
+		6511C087230FD720005FE836 /* GSLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511C086230FD720005FE836 /* GSLKitTests.m */; };
+		6511C092230FD720005FE836 /* GSLKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6511C091230FD720005FE836 /* GSLKitUITests.m */; };
+		6511C0A1230FD7AB005FE836 /* GSLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0A0230FD7AB005FE836 /* GSLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65CD168E230F8B450052CB3F /* PBXContainerItemProxy */ = {
+		6511C083230FD720005FE836 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65CD167A230F8B450052CB3F /* Project object */;
+			containerPortal = 6511C05F230FD714005FE836 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65CD1682230F8B450052CB3F;
+			remoteGlobalIDString = 6511C066230FD714005FE836;
+			remoteInfo = GSLKit;
+		};
+		6511C08E230FD720005FE836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6511C05F230FD714005FE836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6511C066230FD714005FE836;
 			remoteInfo = GSLKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65CD1683230F8B450052CB3F /* GSLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65CD1686230F8B450052CB3F /* GSLKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSLKit.h; sourceTree = "<group>"; };
-		65CD1687230F8B450052CB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65CD168C230F8B450052CB3F /* GSLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65CD1691230F8B450052CB3F /* GSLKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSLKitTests.m; sourceTree = "<group>"; };
-		65CD1693230F8B450052CB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65CD169E230F8BA00052CB3F /* GSLJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLJSON.m; sourceTree = "<group>"; };
-		65CD16A0230F8BA00052CB3F /* UIDevice+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16A1230F8BA00052CB3F /* NSMutableDictionary+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16A2230F8BA00052CB3F /* UIWindow+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16A3230F8BA00052CB3F /* NSArray+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16A4230F8BA00052CB3F /* NSString+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16A5230F8BA00052CB3F /* NSMutableArray+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16A6230F8BA00052CB3F /* NSNull+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16A7230F8BA00052CB3F /* NSData+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16A8230F8BA00052CB3F /* NSDate+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16A9230F8BA00052CB3F /* NSMutableDictionary+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16AA230F8BA00052CB3F /* UIDevice+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16AB230F8BA10052CB3F /* NSArray+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16AC230F8BA10052CB3F /* UIWindow+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16AD230F8BA10052CB3F /* NSNull+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16AE230F8BA10052CB3F /* NSMutableArray+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16AF230F8BA10052CB3F /* NSString+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16B0230F8BA10052CB3F /* NSDate+GSLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GSLAddition.m"; sourceTree = "<group>"; };
-		65CD16B1230F8BA10052CB3F /* NSData+GSLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GSLAddition.h"; sourceTree = "<group>"; };
-		65CD16B3230F8BA10052CB3F /* GSLReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLReachabilityManager.m; sourceTree = "<group>"; };
-		65CD16B4230F8BA10052CB3F /* GSLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLUtilities.h; sourceTree = "<group>"; };
-		65CD16B5230F8BA10052CB3F /* GSLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLFileManager.h; sourceTree = "<group>"; };
-		65CD16BB230F8BA10052CB3F /* GSLJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLJSON.h; sourceTree = "<group>"; };
-		65CD16BC230F8BA10052CB3F /* GSLReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLReachabilityManager.h; sourceTree = "<group>"; };
-		65CD16BD230F8BA10052CB3F /* GSLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLUtilities.m; sourceTree = "<group>"; };
-		65CD16BF230F8BA10052CB3F /* GSLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLFileManager.m; sourceTree = "<group>"; };
+		6511C067230FD714005FE836 /* GSLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511C06A230FD714005FE836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6511C06B230FD714005FE836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6511C070230FD714005FE836 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6511C071230FD714005FE836 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6511C074230FD714005FE836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6511C076230FD720005FE836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6511C079230FD720005FE836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6511C07B230FD720005FE836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511C07C230FD720005FE836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6511C082230FD720005FE836 /* GSLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511C086230FD720005FE836 /* GSLKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSLKitTests.m; sourceTree = "<group>"; };
+		6511C088230FD720005FE836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511C08D230FD720005FE836 /* GSLKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSLKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6511C091230FD720005FE836 /* GSLKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSLKitUITests.m; sourceTree = "<group>"; };
+		6511C093230FD720005FE836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6511C0A0230FD7AB005FE836 /* GSLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65CD1680230F8B450052CB3F /* Frameworks */ = {
+		6511C064230FD714005FE836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511C0A1230FD7AB005FE836 /* GSLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511C07F230FD720005FE836 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65CD1689230F8B450052CB3F /* Frameworks */ = {
+		6511C08A230FD720005FE836 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CD168D230F8B450052CB3F /* GSLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65CD1679230F8B450052CB3F = {
+		6511C05E230FD714005FE836 = {
 			isa = PBXGroup;
 			children = (
-				65CD1685230F8B450052CB3F /* GSLKit */,
-				65CD1690230F8B450052CB3F /* GSLKitTests */,
-				65CD1684230F8B450052CB3F /* Products */,
+				6511C069230FD714005FE836 /* GSLKit */,
+				6511C085230FD720005FE836 /* GSLKitTests */,
+				6511C090230FD720005FE836 /* GSLKitUITests */,
+				6511C068230FD714005FE836 /* Products */,
+				6511C09F230FD7AB005FE836 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		65CD1684230F8B450052CB3F /* Products */ = {
+		6511C068230FD714005FE836 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65CD1683230F8B450052CB3F /* GSLKit.framework */,
-				65CD168C230F8B450052CB3F /* GSLKitTests.xctest */,
+				6511C067230FD714005FE836 /* GSLKit.app */,
+				6511C082230FD720005FE836 /* GSLKitTests.xctest */,
+				6511C08D230FD720005FE836 /* GSLKitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65CD1685230F8B450052CB3F /* GSLKit */ = {
+		6511C069230FD714005FE836 /* GSLKit */ = {
 			isa = PBXGroup;
 			children = (
-				65CD169D230F8BA00052CB3F /* Foundation */,
-				65CD1686230F8B450052CB3F /* GSLKit.h */,
-				65CD1687230F8B450052CB3F /* Info.plist */,
+				6511C06A230FD714005FE836 /* AppDelegate.h */,
+				6511C06B230FD714005FE836 /* AppDelegate.m */,
+				6511C070230FD714005FE836 /* ViewController.h */,
+				6511C071230FD714005FE836 /* ViewController.m */,
+				6511C073230FD714005FE836 /* Main.storyboard */,
+				6511C076230FD720005FE836 /* Assets.xcassets */,
+				6511C078230FD720005FE836 /* LaunchScreen.storyboard */,
+				6511C07B230FD720005FE836 /* Info.plist */,
+				6511C07C230FD720005FE836 /* main.m */,
 			);
 			path = GSLKit;
 			sourceTree = "<group>";
 		};
-		65CD1690230F8B450052CB3F /* GSLKitTests */ = {
+		6511C085230FD720005FE836 /* GSLKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				65CD1691230F8B450052CB3F /* GSLKitTests.m */,
-				65CD1693230F8B450052CB3F /* Info.plist */,
+				6511C086230FD720005FE836 /* GSLKitTests.m */,
+				6511C088230FD720005FE836 /* Info.plist */,
 			);
 			path = GSLKitTests;
 			sourceTree = "<group>";
 		};
-		65CD169D230F8BA00052CB3F /* Foundation */ = {
+		6511C090230FD720005FE836 /* GSLKitUITests */ = {
 			isa = PBXGroup;
 			children = (
-				65CD16B4230F8BA10052CB3F /* GSLUtilities.h */,
-				65CD16BD230F8BA10052CB3F /* GSLUtilities.m */,
-				65CD16BB230F8BA10052CB3F /* GSLJSON.h */,
-				65CD169E230F8BA00052CB3F /* GSLJSON.m */,
-				65CD16B5230F8BA10052CB3F /* GSLFileManager.h */,
-				65CD16BF230F8BA10052CB3F /* GSLFileManager.m */,
-				65CD16BC230F8BA10052CB3F /* GSLReachabilityManager.h */,
-				65CD16B3230F8BA10052CB3F /* GSLReachabilityManager.m */,
-				65CD169F230F8BA00052CB3F /* Additions */,
-				65CD16B6230F8BA10052CB3F /* Base */,
+				6511C091230FD720005FE836 /* GSLKitUITests.m */,
+				6511C093230FD720005FE836 /* Info.plist */,
 			);
-			path = Foundation;
+			path = GSLKitUITests;
 			sourceTree = "<group>";
 		};
-		65CD169F230F8BA00052CB3F /* Additions */ = {
+		6511C09F230FD7AB005FE836 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65CD16A1230F8BA00052CB3F /* NSMutableDictionary+GSLAddition.h */,
-				65CD16A9230F8BA00052CB3F /* NSMutableDictionary+GSLAddition.m */,
-				65CD16AC230F8BA10052CB3F /* UIWindow+GSLAddition.h */,
-				65CD16A2230F8BA00052CB3F /* UIWindow+GSLAddition.m */,
-				65CD16AB230F8BA10052CB3F /* NSArray+GSLAddition.h */,
-				65CD16A3230F8BA00052CB3F /* NSArray+GSLAddition.m */,
-				65CD16AF230F8BA10052CB3F /* NSString+GSLAddition.h */,
-				65CD16A4230F8BA00052CB3F /* NSString+GSLAddition.m */,
-				65CD16AE230F8BA10052CB3F /* NSMutableArray+GSLAddition.h */,
-				65CD16A5230F8BA00052CB3F /* NSMutableArray+GSLAddition.m */,
-				65CD16AD230F8BA10052CB3F /* NSNull+GSLAddition.h */,
-				65CD16A6230F8BA00052CB3F /* NSNull+GSLAddition.m */,
-				65CD16A8230F8BA00052CB3F /* NSDate+GSLAddition.h */,
-				65CD16A7230F8BA00052CB3F /* NSData+GSLAddition.m */,
-				65CD16AA230F8BA00052CB3F /* UIDevice+GSLAddition.h */,
-				65CD16A0230F8BA00052CB3F /* UIDevice+GSLAddition.m */,
-				65CD16B1230F8BA10052CB3F /* NSData+GSLAddition.h */,
-				65CD16B0230F8BA10052CB3F /* NSDate+GSLAddition.m */,
+				6511C0A0230FD7AB005FE836 /* GSLKit.framework */,
 			);
-			path = Additions;
-			sourceTree = "<group>";
-		};
-		65CD16B6230F8BA10052CB3F /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		65CD167E230F8B450052CB3F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65CD1694230F8B450052CB3F /* GSLKit.h in Headers */,
-				65CD16DA230F8BA10052CB3F /* GSLUtilities.h in Headers */,
-				65CD16D2230F8BA10052CB3F /* UIWindow+GSLAddition.h in Headers */,
-				65CD16D5230F8BA10052CB3F /* NSString+GSLAddition.h in Headers */,
-				65CD16D1230F8BA10052CB3F /* NSArray+GSLAddition.h in Headers */,
-				65CD16D0230F8BA10052CB3F /* UIDevice+GSLAddition.h in Headers */,
-				65CD16C7230F8BA10052CB3F /* NSMutableDictionary+GSLAddition.h in Headers */,
-				65CD16D3230F8BA10052CB3F /* NSNull+GSLAddition.h in Headers */,
-				65CD16CE230F8BA10052CB3F /* NSDate+GSLAddition.h in Headers */,
-				65CD16DB230F8BA10052CB3F /* GSLFileManager.h in Headers */,
-				65CD16E1230F8BA10052CB3F /* GSLReachabilityManager.h in Headers */,
-				65CD16E0230F8BA10052CB3F /* GSLJSON.h in Headers */,
-				65CD16D7230F8BA10052CB3F /* NSData+GSLAddition.h in Headers */,
-				65CD16D4230F8BA10052CB3F /* NSMutableArray+GSLAddition.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		65CD1682230F8B450052CB3F /* GSLKit */ = {
+		6511C066230FD714005FE836 /* GSLKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65CD1697230F8B450052CB3F /* Build configuration list for PBXNativeTarget "GSLKit" */;
+			buildConfigurationList = 6511C096230FD720005FE836 /* Build configuration list for PBXNativeTarget "GSLKit" */;
 			buildPhases = (
-				65CD167E230F8B450052CB3F /* Headers */,
-				65CD167F230F8B450052CB3F /* Sources */,
-				65CD1680230F8B450052CB3F /* Frameworks */,
-				65CD1681230F8B450052CB3F /* Resources */,
+				6511C063230FD714005FE836 /* Sources */,
+				6511C064230FD714005FE836 /* Frameworks */,
+				6511C065230FD714005FE836 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -230,45 +161,68 @@
 			);
 			name = GSLKit;
 			productName = GSLKit;
-			productReference = 65CD1683230F8B450052CB3F /* GSLKit.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 6511C067230FD714005FE836 /* GSLKit.app */;
+			productType = "com.apple.product-type.application";
 		};
-		65CD168B230F8B450052CB3F /* GSLKitTests */ = {
+		6511C081230FD720005FE836 /* GSLKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65CD169A230F8B450052CB3F /* Build configuration list for PBXNativeTarget "GSLKitTests" */;
+			buildConfigurationList = 6511C099230FD720005FE836 /* Build configuration list for PBXNativeTarget "GSLKitTests" */;
 			buildPhases = (
-				65CD1688230F8B450052CB3F /* Sources */,
-				65CD1689230F8B450052CB3F /* Frameworks */,
-				65CD168A230F8B450052CB3F /* Resources */,
+				6511C07E230FD720005FE836 /* Sources */,
+				6511C07F230FD720005FE836 /* Frameworks */,
+				6511C080230FD720005FE836 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65CD168F230F8B450052CB3F /* PBXTargetDependency */,
+				6511C084230FD720005FE836 /* PBXTargetDependency */,
 			);
 			name = GSLKitTests;
 			productName = GSLKitTests;
-			productReference = 65CD168C230F8B450052CB3F /* GSLKitTests.xctest */;
+			productReference = 6511C082230FD720005FE836 /* GSLKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6511C08C230FD720005FE836 /* GSLKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6511C09C230FD720005FE836 /* Build configuration list for PBXNativeTarget "GSLKitUITests" */;
+			buildPhases = (
+				6511C089230FD720005FE836 /* Sources */,
+				6511C08A230FD720005FE836 /* Frameworks */,
+				6511C08B230FD720005FE836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6511C08F230FD720005FE836 /* PBXTargetDependency */,
+			);
+			name = GSLKitUITests;
+			productName = GSLKitUITests;
+			productReference = 6511C08D230FD720005FE836 /* GSLKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65CD167A230F8B450052CB3F /* Project object */ = {
+		6511C05F230FD714005FE836 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = wangtong;
 				TargetAttributes = {
-					65CD1682230F8B450052CB3F = {
+					6511C066230FD714005FE836 = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					65CD168B230F8B450052CB3F = {
+					6511C081230FD720005FE836 = {
 						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6511C066230FD714005FE836;
+					};
+					6511C08C230FD720005FE836 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6511C066230FD714005FE836;
 					};
 				};
 			};
-			buildConfigurationList = 65CD167D230F8B450052CB3F /* Build configuration list for PBXProject "GSLKit" */;
+			buildConfigurationList = 6511C062230FD714005FE836 /* Build configuration list for PBXProject "GSLKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,26 +230,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 65CD1679230F8B450052CB3F;
-			productRefGroup = 65CD1684230F8B450052CB3F /* Products */;
+			mainGroup = 6511C05E230FD714005FE836;
+			productRefGroup = 6511C068230FD714005FE836 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65CD1682230F8B450052CB3F /* GSLKit */,
-				65CD168B230F8B450052CB3F /* GSLKitTests */,
+				6511C066230FD714005FE836 /* GSLKit */,
+				6511C081230FD720005FE836 /* GSLKitTests */,
+				6511C08C230FD720005FE836 /* GSLKitUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65CD1681230F8B450052CB3F /* Resources */ = {
+		6511C065230FD714005FE836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511C07A230FD720005FE836 /* LaunchScreen.storyboard in Resources */,
+				6511C077230FD720005FE836 /* Assets.xcassets in Resources */,
+				6511C075230FD714005FE836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511C080230FD720005FE836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65CD168A230F8B450052CB3F /* Resources */ = {
+		6511C08B230FD720005FE836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,46 +270,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65CD167F230F8B450052CB3F /* Sources */ = {
+		6511C063230FD714005FE836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CD16CB230F8BA10052CB3F /* NSMutableArray+GSLAddition.m in Sources */,
-				65CD16D9230F8BA10052CB3F /* GSLReachabilityManager.m in Sources */,
-				65CD16C6230F8BA10052CB3F /* UIDevice+GSLAddition.m in Sources */,
-				65CD16C5230F8BA10052CB3F /* GSLJSON.m in Sources */,
-				65CD16C8230F8BA10052CB3F /* UIWindow+GSLAddition.m in Sources */,
-				65CD16CF230F8BA10052CB3F /* NSMutableDictionary+GSLAddition.m in Sources */,
-				65CD16E2230F8BA10052CB3F /* GSLUtilities.m in Sources */,
-				65CD16D6230F8BA10052CB3F /* NSDate+GSLAddition.m in Sources */,
-				65CD16E4230F8BA10052CB3F /* GSLFileManager.m in Sources */,
-				65CD16C9230F8BA10052CB3F /* NSArray+GSLAddition.m in Sources */,
-				65CD16CD230F8BA10052CB3F /* NSData+GSLAddition.m in Sources */,
-				65CD16CA230F8BA10052CB3F /* NSString+GSLAddition.m in Sources */,
-				65CD16CC230F8BA10052CB3F /* NSNull+GSLAddition.m in Sources */,
+				6511C072230FD714005FE836 /* ViewController.m in Sources */,
+				6511C06C230FD714005FE836 /* AppDelegate.m in Sources */,
+				6511C07D230FD720005FE836 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65CD1688230F8B450052CB3F /* Sources */ = {
+		6511C07E230FD720005FE836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CD1692230F8B450052CB3F /* GSLKitTests.m in Sources */,
+				6511C087230FD720005FE836 /* GSLKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6511C089230FD720005FE836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6511C092230FD720005FE836 /* GSLKitUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65CD168F230F8B450052CB3F /* PBXTargetDependency */ = {
+		6511C084230FD720005FE836 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65CD1682230F8B450052CB3F /* GSLKit */;
-			targetProxy = 65CD168E230F8B450052CB3F /* PBXContainerItemProxy */;
+			target = 6511C066230FD714005FE836 /* GSLKit */;
+			targetProxy = 6511C083230FD720005FE836 /* PBXContainerItemProxy */;
+		};
+		6511C08F230FD720005FE836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6511C066230FD714005FE836 /* GSLKit */;
+			targetProxy = 6511C08E230FD720005FE836 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		6511C073230FD714005FE836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511C074230FD714005FE836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6511C078230FD720005FE836 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6511C079230FD720005FE836 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		65CD1695230F8B450052CB3F /* Debug */ = {
+		6511C094230FD720005FE836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +364,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -395,17 +381,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		65CD1696230F8B450052CB3F /* Release */ = {
+		6511C095230FD720005FE836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,7 +422,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -450,131 +433,164 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		65CD1698230F8B450052CB3F /* Debug */ = {
+		6511C097230FD720005FE836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9X9JMFHS2M;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GSLKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				OTHER_CFLAGS = "-fembed-bitcode";
-				OTHER_LDFLAGS = "-fembed-bitcode";
-				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSL.GSLKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		65CD1699230F8B450052CB3F /* Release */ = {
+		6511C098230FD720005FE836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9X9JMFHS2M;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GSLKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				OTHER_CFLAGS = "-fembed-bitcode";
-				OTHER_LDFLAGS = "-fembed-bitcode";
-				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSL.GSLKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		65CD169B230F8B450052CB3F /* Debug */ = {
+		6511C09A230FD720005FE836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9X9JMFHS2M;
 				INFOPLIST_FILE = GSLKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSL.GSLKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSLKit.app/GSLKit";
 			};
 			name = Debug;
 		};
-		65CD169C230F8B450052CB3F /* Release */ = {
+		6511C09B230FD720005FE836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9X9JMFHS2M;
 				INFOPLIST_FILE = GSLKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSL.GSLKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSLKit.app/GSLKit";
+			};
+			name = Release;
+		};
+		6511C09D230FD720005FE836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSLKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSL.GSLKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSLKit;
+			};
+			name = Debug;
+		};
+		6511C09E230FD720005FE836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSLKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSL.GSLKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSLKit;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65CD167D230F8B450052CB3F /* Build configuration list for PBXProject "GSLKit" */ = {
+		6511C062230FD714005FE836 /* Build configuration list for PBXProject "GSLKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65CD1695230F8B450052CB3F /* Debug */,
-				65CD1696230F8B450052CB3F /* Release */,
+				6511C094230FD720005FE836 /* Debug */,
+				6511C095230FD720005FE836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65CD1697230F8B450052CB3F /* Build configuration list for PBXNativeTarget "GSLKit" */ = {
+		6511C096230FD720005FE836 /* Build configuration list for PBXNativeTarget "GSLKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65CD1698230F8B450052CB3F /* Debug */,
-				65CD1699230F8B450052CB3F /* Release */,
+				6511C097230FD720005FE836 /* Debug */,
+				6511C098230FD720005FE836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65CD169A230F8B450052CB3F /* Build configuration list for PBXNativeTarget "GSLKitTests" */ = {
+		6511C099230FD720005FE836 /* Build configuration list for PBXNativeTarget "GSLKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65CD169B230F8B450052CB3F /* Debug */,
-				65CD169C230F8B450052CB3F /* Release */,
+				6511C09A230FD720005FE836 /* Debug */,
+				6511C09B230FD720005FE836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6511C09C230FD720005FE836 /* Build configuration list for PBXNativeTarget "GSLKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6511C09D230FD720005FE836 /* Debug */,
+				6511C09E230FD720005FE836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 65CD167A230F8B450052CB3F /* Project object */;
+	rootObject = 6511C05F230FD714005FE836 /* Project object */;
 }

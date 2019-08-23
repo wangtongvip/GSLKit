@@ -1,0 +1,6 @@
+framework module GSLKit {
+  umbrella header "GSLKit.h"
+
+  export *
+  module * { export * }
+}
